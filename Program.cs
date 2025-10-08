@@ -22,8 +22,8 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-aws_access_key_id="2342235fd"
-aws_secret_access_key="esfwesdfsdf"
+aws_access_key_id="AKIAEXAMPLEEXAMPLE"
+aws_secret_access_key="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 
 app.UseRouting();
