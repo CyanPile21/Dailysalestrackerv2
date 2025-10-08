@@ -22,6 +22,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+AWS_ACCESS_KEY_ID="234234235fsfd"
+AWS_SECRET_ACCESS_KEY="esfwestrsgfsdfsdf"
+
+
 app.UseRouting();
 
 app.UseAuthorization();
