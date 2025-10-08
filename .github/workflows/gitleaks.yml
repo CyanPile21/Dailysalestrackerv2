@@ -51,7 +51,7 @@ jobs:
           sarif_file: gitleaks.sarif
           category: gitleaks
 
-      # ✅ Always export SARIF as artifact (so you can download/use elsewhere)
+      # ✅ Always export SARIF as artifact (so you can download/use/ elsewhere)
       - name: Export SARIF as artifact
         uses: actions/upload-artifact@v4
         with:
